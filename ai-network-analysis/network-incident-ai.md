@@ -21,3 +21,37 @@ Enterprise networks generate thousands of alerts each day.
 Network engineers must manually review logs, alerts, and device status information to determine root cause.
 
 This process delays incident resolution and increases operational workload.
+## 4. Architecture Concept
+
+# AI Network Incident Analysis Assistant Architecture
+
+## Overview
+This system simulates how AI can assist MetroCare Network Services in analyzing incidents.
+
+## Components
+
+### 1. Data Sources
+- Network alerts (monitoring systems)
+- Device logs
+- Telemetry data
+
+### 2. AI Processing Layer
+- Input: Alerts + Logs
+- Processing:
+  - Pattern recognition
+  - Correlation of events
+  - Classification of incidents
+
+### 3. Output Layer
+- Incident classification
+- Root cause hypothesis
+- Recommended actions
+
+## Key Benefits
+- Faster incident triage
+- Reduced manual analysis effort
+- Improved response time
+
+## Zero-Trust Consideration
+- AI only accesses segmented, read-only telemetry data
+- No direct control over network devices
