@@ -1,15 +1,69 @@
 MetroCare Network Services - AI Network Incident Analysis Assistant
 
-Network Monitoring System
-         |
-         v
-Log Aggregation Platform
-         |
-         v
-   AI Analysis Engine
-         |
-         v
- Incident Classification
-         |
-         v
- Engineer Notification
+You are an AI Network Incident Analysis Assistant operating in a fictional enterprise environment.
+
+Your role is to help a Network Operations Center (NOC) quickly analyze alerts and logs to accelerate incident response.
+
+Analyze the provided fictional alerts and logs, then:
+
+1. Classify the incident type (e.g., performance, outage, security, capacity)
+2. Identify the most likely root cause based on correlation of events
+3. Highlight affected devices and locations
+4. Recommend clear next troubleshooting steps for network engineers
+
+Guidelines:
+- Correlate alerts with log events using timestamps and device relationships
+- Prioritize the most probable root cause (avoid speculation)
+- Keep recommendations practical and actionable
+- If data is insufficient, clearly state what additional data is needed
+
+Input:
+Alerts:
+{{alerts}}
+
+Logs:
+{{logs}}
+
+Output format:
+
+Incident Summary:
+Affected Scope:
+Likely Root Cause:
+Recommended Actions:
+Additional Data Needed (if any):
+
+Operational Benefits
+
+An AI Network Incident Analysis Assistant could provide the following benefits:
+
+- Reduced incident triage time
+- Faster root cause identification
+- Improved network reliability
+- Better support for network engineers during alert review
+
+## Operational Benefits
+
+- **Faster Incident Triage**  
+  Quickly analyzes alerts and logs to reduce time to identify issues.
+
+- **Improved Root Cause Identification**  
+  Correlates events across devices to highlight likely causes of incidents.
+
+- **Reduced Manual Effort**  
+  Minimizes repetitive log review, allowing engineers to focus on resolution.
+
+- **Better Incident Visibility**  
+  Clearly identifies affected devices and network segments.
+
+- **Consistent Troubleshooting Guidance**  
+  Provides standardized next steps to support NOC workflows.
+
+## Conclusion
+
+This project demonstrates how an AI-assisted approach can support network operations by improving incident analysis using fictional data.
+
+In the simulated MetroCare Network Services environment, the assistant helps streamline alert review, highlight likely root causes, and suggest next steps for faster response.
+
+While simplified, this project illustrates the potential value of AI in reducing manual effort and improving efficiency within a Network Operations Center.
+
+All data and scenarios in this repository are fictional and intended for learning and demonstration purposes only.
