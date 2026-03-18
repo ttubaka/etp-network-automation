@@ -1,0 +1,15 @@
+MetroCare Network Services - AI Network Incident Analysis Assistant
+
+Network Monitoring System
+         |
+         v
+Log Aggregation Platform
+         |
+         v
+   AI Analysis Engine
+         |
+         v
+ Incident Classification
+         |
+         v
+ Engineer Notification
